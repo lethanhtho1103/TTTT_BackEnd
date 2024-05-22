@@ -3,7 +3,7 @@ const { mongoose } = require("mongoose");
 async function connect() {
   try {
     await mongoose
-      .connect("mongodb://127.0.0.1/QuanLyMuonSach")
+      .connect("mongodb://127.0.0.1/QuanLyLinhKienMayTinh")
       .then(() => console.log("Connect successfully!!!"));
   } catch {
     console.log("Connect Error");
