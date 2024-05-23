@@ -27,11 +27,11 @@ const User = new Schema({
   },
   avatar: {
     type: String,
-    required: true,
+    default: null,
   },
   admin: {
     type: Boolean,
-    required: true,
+    default: false,
   },
 });
 
