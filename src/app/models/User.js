@@ -29,8 +29,8 @@ const User = new Schema({
     type: String,
     required: true,
   },
-  role: {
-    type: Number,
+  admin: {
+    type: Boolean,
     required: true,
   },
 });
